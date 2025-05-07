@@ -35,7 +35,7 @@ module.exports.stick = async (buffer, author) => {
         pack: 'BMW-MD',
         author: author,
         type: StickerTypes.FULL,
-        categories: ['🤩', '🎉'],
+        categories: ['🤍', '🖤'],
         id: '12345',
         quality: 50,
         background: '#000000'
