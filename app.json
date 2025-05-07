@@ -36,7 +36,7 @@
     "AUTO_READ_STATUS": {
       "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
@@ -46,7 +46,7 @@
     "AUTO_READ": {
       "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
       "value": "no",
-      "required": false
+      "required": true
     },
     "BOT_NAME": {
       "description": "Name for your bot",
@@ -80,18 +80,18 @@
     },
    "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
-      "value": "💚,🚀,🌎,✅",
-      "required": false 
+      "value": "💙,❤‍🩹,🖤,🤍",
+      "required": true 
     },
     "AUTO_REACT": {
       "description": "Enter your auto react messages",
-      "value": "no",
-      "required": false 
+      "value": "❤‍🩹,💙,🤍,🖤",
+      "required": true 
     },
    "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
       "value": "yes",
-      "required": false 
+      "required": true 
     },
     "OWNER_NAME": {
       "description": "Owner name",
