@@ -17,6 +17,11 @@
       "description": "Enter yes for your bot to auto reject calls",
       "value": "no",
       "required": false
+    },  
+    "CUSTOM_EMOJIS": {  
+      "description": "Enter your auto like status emojis",
+      "value": "💙,❤‍🩹,🖤,🤍",
+      "required": true 
     },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
@@ -160,4 +165,6 @@
       "url": "heroku/nodejs"
     }
   ]
+}
+}
 }
